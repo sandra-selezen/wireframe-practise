@@ -8,10 +8,21 @@
 body {
     background-color: var(--primary-white-color);
     color: rgba(0, 0, 0, 0.8);
+    
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -0.015em;
+}
+
+a {
+    text-decoration: none;
 }
 
 .logo {
     color: var(--title-text-color);
+    
+    font-family: 'Comfortaa', cursive;
+    font-size: 28px;
+    line-height: 1.14;
 }
 
 .logo:hover {
@@ -26,6 +37,10 @@ body {
 
 .site-nav-link {
     color: var(--accent-color);
+    
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1,2;
 }
 
 .site-nav-link:hover,
@@ -35,22 +50,48 @@ body {
 
 .hero-title {
     color: var(--title-text-color);
+    
+    font-size: 56px;
+    line-height: 1.42;
+    text-align: center;
 }
 
 .section-title {
     color: var(--title-text-color);
+    
+    font-size: 48px;
+    line-height: 1.5;
+    text-align: center;
 }
 
-.features-title {
-    color: var(--title-text-color);
-}
-
+.features-title,
 .works-title {
     color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.feature-text,
+.works-text {
+    font-size: 18px;
+    line-height: 1,67;
+}
+
+.description {
+    font-size: 36px;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.section-text {
+    font-size: 36px;
+    line-height: 1,4;
 }
 
 .button {
-    
+    font-weight: 500;
 }
 
 .button.primary {
@@ -61,4 +102,31 @@ body {
 .button.secondary {
     color: var(--accent-color);
     background-color: var(--primary-white-color);
+}
+
+.section .button,
+.hero .button {
+    font-size: 17px;
+    line-height: 1,24;
+}
+
+.features .button,
+.auth-nav .button {
+    font-size: 15px;
+    line-height: 1,2;
+}
+
+
+.copyright {
+    font-size: 15px;
+    line-height: 1,6;
+    text-align: center;
+}
+
+.footer-nav {
+    color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 1,6;
 }
